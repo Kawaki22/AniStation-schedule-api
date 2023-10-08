@@ -14,7 +14,7 @@ gunicorn==21.2.0
 h11==0.14.0
 httptools==0.6.0
 idna==3.4
-importlib-metadata==6.8.0
+importlib-metadata==6.7.0
 lxml==4.9.3
 packaging==23.2
 parse==1.19.1
