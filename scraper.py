@@ -15,14 +15,13 @@ class Scraper():
         
             if episode_countdown is not None:
                 
+                image = c.find('img', first = True).attrs.get('srcset').split("1x, ")
                 # match = re.match(r'EP(\d+): (.+)', countdown_text.text)
 
                 items = {
                     'episodeAndTimestamp' : c.find('time.episode-countdown', first = True).text.strip(),
                     'title' : c.find('h3.main-title', first = True).text.strip(),
-                    'imageUrl' : {
-                        c.find('img', first = True).attrs.get('srcset')
-                    },
+                    'imageUrl' : image[1],
                     'rating' : c.find('div.anime-extras', first = True).text.strip(),
                     'animeStudio' : c.find('ul.anime-studios', first = True).text.strip()
                    
