@@ -23,7 +23,7 @@ pydantic_core==2.10.1
 pyee==8.2.2
 pyppeteer==1.0.2
 pyquery==2.0.0
-python-dotenv==1.0.0
+python-dotenv==0.21.1
 PyYAML==6.0.1
 requests==2.31.0
 requests-html==0.10.0
