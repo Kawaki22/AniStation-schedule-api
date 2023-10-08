@@ -1,1 +1,0 @@
-# AniStation-schedule-api
