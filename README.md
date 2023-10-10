@@ -4,7 +4,7 @@ This is a FastApi app deployed on Render.
 
 <p align="center">
     <a href="https://github.com/Kawaki22/AniStation-schedule-api/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/consumet/api" alt="GitHub">
+    <img src="https://img.shields.io/badge/license-MIT-blue" alt="License">
   </a>
 </p>
 
