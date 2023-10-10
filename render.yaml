@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: AniStation-schedule-api # Name of the service
+    env: python
+    repo: https://github.com/Kawaki22/AniStation-schedule-api.git
+    plan: free
+    branch: master
+    envVars:
+      - key: PORT
+        value: 3000
