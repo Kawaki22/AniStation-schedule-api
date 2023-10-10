@@ -7,7 +7,7 @@ This is a FastApi app deployed on Render.
     <img src="https://img.shields.io/badge/license-MIT-blue" alt="License">
   </a>
     <a href="https://www.instagram.com/pra_sidh_22/">
-    <img src="https://img.shields.io/badge/instagram-pra__sidh__22-yellow" alt="Instagram">
+    <img src="https://img.shields.io/badge/instagram-pra__sidh__22-green" alt="Instagram">
   </a>
 </p>
 
