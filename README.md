@@ -12,7 +12,7 @@ This is a FastApi app deployed on Render.
 </p>
 
 # BASE URL
-https://anistation-schedule-api.onrender.com/
+https://ani-station-schedule-api.vercel.app/
 
 # Routes
 /{season}/{category}
