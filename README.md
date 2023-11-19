@@ -1,6 +1,6 @@
 # AniStation-schedule-api
 A simple api created in python which scrapes data from livechart.me to get anime airing schedule.
-This is a FastApi app deployed on Render.
+This is a FastApi app deployed on Vercel.
 
 <p align="center">
     <a href="https://github.com/Kawaki22/AniStation-schedule-api/blob/master/LICENSE">
