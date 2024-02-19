@@ -21,6 +21,7 @@ class Scraper():
                 # match = re.match(r'EP(\d+): (.+)', countdown_text.text)
 
                 items = {
+                    'episodeAndTimestamp' : 'N/A',
                     'episode' : episode,
                     'timeStamp' : episode_countdown.attrs.get('data-timestamp'),
                     'title' : c.find('h3.main-title', first = True).text.strip(),
