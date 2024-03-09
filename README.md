@@ -16,7 +16,7 @@ https://ani-station-schedule-api.vercel.app/
 
 # Routes
 /{season}/{category}
-Example: /fall-2023/tv
+Example: /winter-2024/tv
 
 # Deploy your own instance on Vercel
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FKawaki22%2FAniStation-schedule-api)
