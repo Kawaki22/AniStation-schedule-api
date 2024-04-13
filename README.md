@@ -15,8 +15,13 @@ This is a FastApi app deployed on Vercel.
 https://ani-station-schedule-api.vercel.app/
 
 # Routes
-/{season}/{category}
-Example: /winter-2024/tv
+
+### Get all schedules
+
+| Parameter           | Description                                                                                                                                                                                 |
+| ------------------- | -------------------                                                                                                                                                                         |
+| `season` (string)   | Provide a season with the year. Example: `GET /winter-2024`                                                                                                                                 |
+| `category` (string) | Provide a category Example: `GET /winter-2024/tv`                                                                                                                                           |
 
 # Deploy your own instance on Vercel
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FKawaki22%2FAniStation-schedule-api)
